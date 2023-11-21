@@ -1,6 +1,7 @@
 // uno.config.ts
 import extractorSvelte from '@unocss/extractor-svelte'
-import { defineConfig, presetAttributify, presetUno } from 'unocss'
+import { defineConfig, presetUno } from 'unocss'
+import presetAttributify from "@unocss/preset-attributify"
 
 export default defineConfig({
   // ...UnoCSS options
