@@ -372,6 +372,11 @@
   resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.57.5.tgz#6c1accad6cea406717909c440db2ec30be8a8a95"
   integrity sha512-AeNS88zdHjNVlIoaP2+EeN5j6C/7dy6qxNs5BFC4NzmvZf9IyeLLaVxK6qPWjRihXBpkYEuXOtm7TPcVylhFOA==
 
+"@unocss/core@0.57.6":
+  version "0.57.6"
+  resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.57.6.tgz#f21920f4cedcda17455763fe372bfc6dec55167e"
+  integrity sha512-rkqMX5Lyyl2u2PF2EMcH/QeFUAoiFeq5vnaGGYV2LVfTlDrEVx8CrNHlBmWr5fXrhyzXi366pK/ErJ2pepGiqg==
+
 "@unocss/extractor-arbitrary-variants@0.57.5":
   version "0.57.5"
   resolved "https://registry.yarnpkg.com/@unocss/extractor-arbitrary-variants/-/extractor-arbitrary-variants-0.57.5.tgz#37656704a978e0b667e75797ab5eb46e0bc0b530"
@@ -413,6 +418,13 @@
   integrity sha512-iE2XhDuiXg5nR8APLOHqA0iasiYOebK/vMyqhLOm4k3ciqyGeGZXxtpoq/geIrp0fltlkx1RgJBfmf5rCwSh4w==
   dependencies:
     "@unocss/core" "0.57.5"
+
+"@unocss/preset-attributify@^0.57.6":
+  version "0.57.6"
+  resolved "https://registry.yarnpkg.com/@unocss/preset-attributify/-/preset-attributify-0.57.6.tgz#192409f161fd2a02eb07629f565bfba950bb07de"
+  integrity sha512-3SK7Gn98WkhfvXFALEGvhGLH3jEKXluOQ8LBMR1eewULtXzIAv/YDpqaGV0aOb8gjw16RHDBsScVM1s9mHy7Dw==
+  dependencies:
+    "@unocss/core" "0.57.6"
 
 "@unocss/preset-icons@0.57.5":
   version "0.57.5"

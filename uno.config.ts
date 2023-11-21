@@ -10,5 +10,10 @@ export default defineConfig({
   presets: [
     presetAttributify(),
     presetUno(),
-  ]
+  ],
+  theme: {
+    fontFamily: {
+      ps: "IBM Plex Serif"
+    }
+  }
 })
